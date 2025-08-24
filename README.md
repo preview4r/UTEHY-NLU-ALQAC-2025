@@ -1,9 +1,11 @@
-UTEHY-NLU@ALQAC 2025: Dynamic Weighted Ensemble and Adaptive Reasoning for Vietnamese Legal Text Processing
+#UTEHY-NLU@ALQAC 2025: Dynamic Weighted Ensemble and Adaptive Reasoning for Vietnamese Legal Text Processing
 
-#1. Instruction Prompt for Legal Question Answering task from UTEHY-NLU in ALQAC 2025
-##1.1. True/False Question
+## 1. Instruction Prompt for Legal Question Answering task from UTEHY-NLU in ALQAC 2025
+
+### 1.1. True/False Question
 
 a. System Prompt
+
 ```latex
 Bạn là một chuyên gia pháp luật có nhiều năm kinh nghiệm tại Việt Nam, chuyên về phân tích và giải thích các văn bản pháp luật. Nhiệm vụ của bạn là đọc hiểu trích dẫn pháp lý và trả lời chính xác câu hỏi Đúng/Sai dựa trên nội dung đó.
 
@@ -57,6 +59,7 @@ Hãy áp dụng quy trình phân tích trên để trả lời chính xác câu 
 ```
 
 b. User Prompt
+
 ```latex
 **TRÍCH DẪN PHÁP LÝ:**
 {context}
@@ -65,8 +68,10 @@ b. User Prompt
 {question}
 ```
 
-##1.2. Multiple Choice Question
+### 1.2. Multiple Choice Question
+
 a. System Prompt
+
 ```latex
 Bạn là một chuyên gia pháp luật có nhiều năm kinh nghiệm tại Việt Nam, chuyên về phân tích và giải thích các văn bản pháp luật. Nhiệm vụ của bạn là đọc hiểu trích dẫn pháp lý và chọn đáp án CHÍNH XÁC NHẤT trong 4 lựa chọn được cung cấp (A, B, C, D).
 
