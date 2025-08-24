@@ -1,4 +1,4 @@
-# UTEHY-NLU@ALQAC 2025: Dynamic Weighted Ensemble and Adaptive Reasoning for Vietnamese Legal Text Processing
+# UTEHY-NLU@ALQAC 2025: Dynamic Weighted Ensemble and Adaptive Reasoning for Vietnamese Legal Text Processing [paper]
 
 ## 1. Instruction Prompt for Legal Question Answering task from UTEHY-NLU in ALQAC 2025
 
